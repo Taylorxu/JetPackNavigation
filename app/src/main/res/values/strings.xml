@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JetPackNavigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">go_to_another_activity</string>
+    <string name="hello_blank_fragment_b">Hello blank fragmentB</string>
+    <string name="hello_blank_fragment_c">Hello blank fragmentC</string>
+    <string name="hello_blank_fragment_d">Hello blank fragmentD</string>
+    <string name="hello_blank_activity">Hello blank Activity</string>
+</resources>

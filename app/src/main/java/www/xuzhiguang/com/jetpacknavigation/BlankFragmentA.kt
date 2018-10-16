@@ -24,9 +24,6 @@ class BlankFragmentA : Fragment() {
         }
     }
 
-    /**
-     * [argumentName] 值必须与 navigation xml中 action 目标的 一致
-     */
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         var view = inflater.inflate(R.layout.fragment_blank, container, false)
@@ -53,6 +50,7 @@ class BlankFragmentA : Fragment() {
      * 这种方式跳转很显然，直接传递bundle就可以了；
      * resId 对应着  <action  android:id="@+id/action_blankFragmentA_to_anotherActivity".... />
      * 参数获取 请进 [AnotherActivity.onCreate]
+     * [argumentName] 值必须与 navigation xml中 action 目标的 一致
      */
     fun navigateByGraphId() {
         var argument = Bundle()

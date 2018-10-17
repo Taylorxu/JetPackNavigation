@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">JetPackNavigation</string>
+    <string name="app_name">底部导航</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">go_to_another_activity</string>
